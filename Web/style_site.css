@@ -1,0 +1,17 @@
+body { background-color : Pink;
+background-image : url("fond.png");
+background-repeat : repeat;}
+
+@font-face {
+font-family : Little;
+src : url('Little days.ttf');}
+
+h1 { font-family : Little;
+font-size : 5em;
+text-align : center;
+color : LightSlateGray ;
+font-style : bold }
+
+button { background-color : PaleVioletRed;
+border-radius : 1.5em ;
+transition : background-color 1s}
