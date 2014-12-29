@@ -16,6 +16,10 @@ div{text-align: right ;
 font-family : script;
 color : SlateGray ;}
 
+h2 { text-align : left ;
+font-family : script;
+color : SlateGray ;}
+
 button:hover{background-color: lightpink;}
 
 button { background-color : PaleVioletRed;
@@ -26,4 +30,4 @@ text-align:center;
 font-size:1.2em;
 ;}
 
-ul {display: inline-block;}
+ul {display: inline-block;} 
