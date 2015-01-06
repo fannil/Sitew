@@ -16,14 +16,39 @@ div{text-align: right ;
 font-family : script;
 color : SlateGray ;}
 
-button:hover{background-color: lightpink;}
+li{display: inline-block;
+margin-left:4%;}
 
-button { background-color : PaleVioletRed;
+button{
+color : slategray;
+background-color : PaleVioletRed;
 border-radius : 1.5em ;
-transition : background-color 1s
-border-color:LightSlateGray;
+transition : background-color 1s;
+border: solid 1px LightSlateGray;
 text-align:center;
 font-size:1.2em;
-;}
+}
 
-ul {display: inline-block;}
+button:hover{background-color: lightpink;}
+
+img{margin-left:15em;
+border-radius:0.5em;}
+
+p{text-align:center;
+font-weight:bold;
+text-decoration: blink;}
+
+#bienvenue{font-size : 10em;
+text-align : center;
+margin-top:15%;
+color : LightSlateGray;
+font-family :Brush Script MT; /*ou papyrus*/
+background-image : url("fond.png");
+background-repeat : repeat;
+}
+
+td{margin-left : 4%}
+
+
+
+
