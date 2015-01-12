@@ -36,9 +36,15 @@ border-bottom : solid 0.25em slategray;
 nav a:hover { background-color: lightpink;}
 
 img{margin-left:15em;
-border-radius:0.5em;}
+}
+#detail img { border-radius : 2.5em;}
+#details  p { text-align : center;
+font-family : "Brush Script MT";
+font-weight : bold;
+font-size : 3em;}
+}
 
-p{text-align:center;
+#promotion{text-align:center;
 font-weight:bold;
 text-decoration: blink;}
 
@@ -53,6 +59,10 @@ background-repeat : repeat;
 
 td{margin-left : 4%}
 
+.gris { width : 30em ; height : 40em ;
+margin-top : 5em;
+position : absolute;
+left : 2; }
 
 
 
