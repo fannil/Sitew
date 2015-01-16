@@ -28,6 +28,7 @@ transition : background-color 1s;
 border: solid 1px LightSlateGray;
 text-align:center;
 font-size:1.2em;
+padding : 0.25em;
 }
 nav {
 border-bottom : solid 0.25em slategray;
@@ -35,13 +36,23 @@ border-bottom : solid 0.25em slategray;
 
 nav a:hover { background-color: lightpink;}
 
-img{margin-left:15em;
+.catalogue {margin-left:15em;
 }
+
 #detail img { border-radius : 2.5em;}
-#details  p { text-align : center;
+
+#carac{float:right;
+width:50%;}
+
+cite {font-size:2.5em;
+color:purple;
+}
+
+#details  p {
 font-family : "Brush Script MT";
 font-weight : bold;
-font-size : 3em;}
+font-size : 2em;
+margin-top:4em;
 }
 
 #promotion{text-align:center;
@@ -59,10 +70,37 @@ background-repeat : repeat;
 
 td{margin-left : 4%}
 
-.gris { width : 30em ; height : 40em ;
+.gris { width : 30em ; 
+height : 40em ;
 margin-top : 5em;
-position : absolute;
-left : 2; }
+position:absolute;
+margin-left:3%;}
 
+.blink {
+animation-name: blinker;
+animation-duration: 1s;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+text-align : center ;
+color : purple ;
+font-size : 2em;
+}
 
+@keyframes blinker {
+0% { opacity: 1.0; }
+50% { opacity: 0.0; }
+100% { opacity: 1.0; }
+}
 
+select {
+background-color:transparent;
+border-radius: 0.5em;
+}
+
+button {
+color:purple;
+border-radius:0.28em;
+background-color:transparent;
+font-size : 0.5em;
+
+}
