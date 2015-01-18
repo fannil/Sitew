@@ -14,7 +14,8 @@ font-style : bold }
 
 div{text-align: right ;
 font-family : Little;
-color : black ;}
+color : black ;
+font-size: 1.5em;}
 
 li{display: inline-block;
 margin-left:4%;}
@@ -28,31 +29,56 @@ transition : background-color 1s;
 border: solid 1px LightSlateGray;
 text-align:center;
 font-size:1.2em;
-padding : 0.25em;
+padding:0.25em;
 }
+#ajout{
+text-decoration : none ;
+color : slategray;
+background-color : PaleVioletRed;
+border-radius : 1.5em ;
+transition : background-color 1s;
+border: solid 1px LightSlateGray;
+text-align:center;
+font-size:0.75em;
+padding:0.25em;
+font-family: Script;
+}
+#ajout:hover{ background-color: lightpink;}
+
+#menu{padding-left:8%}
+
 nav {
 border-bottom : solid 0.25em slategray;
 }
 
 nav a:hover { background-color: lightpink;}
 
-.catalogue {margin-left:15em;
+.catalogue {
+border:0.25em solid black;
+border-color:Slategray;
+padding:0.5em;
+margin-left:28%
 }
+.catalogue td {
+border:0.1em solid black;
+border-color:LightSlategray;
+padding:0.5em;
+text-align:center;
+font-size:1.5em;
+color: DarkMagenta;
+font-weight : bold;}
 
 #detail img { border-radius : 2.5em;}
 
 #carac{float:right;
-width:50%;}
-
-cite {font-size:2.5em;
-color:purple;
+width:50%;
 }
 
 #details  p {
 font-family : "Brush Script MT";
 font-weight : bold;
 font-size : 2em;
-margin-top:4em;
+color: DarkMagenta;
 }
 
 #promotion{text-align:center;
@@ -72,7 +98,6 @@ td{margin-left : 4%}
 
 .gris { width : 30em ; 
 height : 40em ;
-margin-top : 5em;
 position:absolute;
 margin-left:3%;}
 
@@ -82,7 +107,7 @@ animation-duration: 1s;
 animation-timing-function: linear;
 animation-iteration-count: infinite;
 text-align : center ;
-color : purple ;
+color : DarkMagenta ;
 font-size : 2em;
 }
 
@@ -95,12 +120,65 @@ font-size : 2em;
 select {
 background-color:transparent;
 border-radius: 0.5em;
+font-size:0.58em;
+color: DarkMagenta;
 }
 
 button {
-color:purple;
-border-radius:0.28em;
-background-color:transparent;
-font-size : 0.5em;
+text-decoration : none ;
+color : slategray;
+background-color : PaleVioletRed;
+border-radius : 1.5em ;
+transition : background-color 1s;
+border: solid 1px LightSlateGray;
+text-align:center;
+font-size:0.69em;
+padding:0.25em;
+}
+button:hover { background-color: lightpink;}
 
+.valider{
+text-align:center;
+font-size: 1em;
+margin-left:43%;
+margin-top:0.75em;
+}
+
+.panier {border:0.25em solid black;
+text-align:center;
+margin-top:1em;
+margin-left:25%;
+font-size: 1.5em;
+color:DarkMagenta;
+border-color:Slategray;
+}
+
+.panier th{border:0.1em solid black;
+padding:0.5em;
+border-color:LightSlategray;
+}
+.panier td{border:0.1em solid black;
+border-color:LightSlategray;
+padding:0.5em;}
+
+.titre {
+color : slategray;
+font-family : Little;
+font-size : 2.5em;
+}
+.description {
+color : PaleVioletRed;
+font-weight : bold;
+}
+
+#ici {
+text-decoration: none;
+color : mediumvioletred;
+}
+
+.recherche {
+color : PaleVioletRed;
+font-weight : bold;
+text-align : center;
+margin-top : 1em;
 }
