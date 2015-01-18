@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html> <!-- copier a chaque fois sur les autres pages du site -->
+	<head>
+		<meta charset="utf-8">
+		<title>Notre Site</title>
+		<link rel="stylesheet" type="text/css" href="style_site.css" />
+	</head>
+	<body>
+		<h1>Fannil Shop</h1>
+		<div>
+			<form method="POST" action="order.html">
+				<label>Mon compte : </label>
+				<label><input placeholder="e-mail"></label>
+				<label><input type="password"  placeholder="mot de passe"></label>
+				<button>OK</button>
+			</form>
+		</div>
+		<nav id="menu">
+			<ul>
+				<li> <a href="Siteweb.html" > Accueil</a></li> 
+				<li> <a href="vetement.html" > Vêtements</a></li>
+				<li> <a href="accessoires.html" > Accessoires</a></li>
+				<li> <a href="monpanier.html" > Mon panier</a></li>
+				<li> <a href="contact.html" > Contact</a></li>
+				<li> <a href="qui.html" > Qui sommes-nous ?</a></li>
+			</ul>
+		</nav>
+	<section id="details">
+		<h2 class="titre"> Pull Gris</h2>
+		<img class="gris" src="pull_gris.jpg" alt="pull gris"/>
+		<section id="carac">
+			<h2 class="titre">Caractéristiques :</h2>
+			<p> Prix : 25 000$ <br><br>
+				Autre coloris : <select>
+							<option>Bleu</option>
+							<option>Rouge</option>
+							<option>Vert</option>
+							<option>Rose</option>
+							</select><br><br>
+				Taille : <select>
+							<option>S</option>
+							<option>M</option>
+							<option>L</option>
+							<option>XL</option>
+							</select><br><br>
+				Quantité : <select>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							</select><br><br>
+				<button>Ajouter au panier</button><br><br>
+			<form method="POST" action="comz.html" class="description">
+				<label for="commentaire">Avez-vous des commentaires ?</label><br><br>
+				<textarea name="commentaire" id="commentaire"></textarea>
+				<button>OK</button><br><br>
+			</form>
+			<section class="description">
+				<h2 class="description"> Commentaire :</h2> 
+				Très joli pull et très confortable :)
+			</section>
+			</p>
+		</section>
+	</section>
+	</body>
+</html>
