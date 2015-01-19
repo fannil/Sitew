@@ -10,7 +10,7 @@ h1 { font-family : Little;
 font-size : 5em;
 text-align : center;
 color : LightSlateGray ;
-font-style : bold }
+font-weight : bold }
 
 div{text-align: right ;
 font-family : Little;
@@ -182,3 +182,4 @@ font-weight : bold;
 text-align : center;
 margin-top : 1em;
 }
+
